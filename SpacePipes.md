@@ -1,9 +1,15 @@
----
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpacePipes</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
 
----
-
-<h1 id="space-pipes">Space Pipes!</h1>
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="space-pipes">Space Pipes!</h1>
 <p>So recently the amazing community run by Christian Henson called <a href="https://www.pianobook.co.uk/">Pianobook</a> hosted a contest to produce an instrument based on an audio sample of 29 bagpipes warming up in a school yard. The sound is exactly what you would imagine – a blaring drone of discordant harmonies fading in and out of each other. <a href="https://lachlan00.github.io/pianobook/Space_Pipes/audio/29%20Bagpipes%20Tuning%20Up.wav">Have a listen</a>! It’s a a very interesting and textured sound but definitely a tricky sample to build an instrument out of. This is because…</p>
 <p><strong>Q.</strong> What’s the definition of a minor second?<br>
 <strong>A.</strong> Two bagpipes playing in unison. 😂</p>
@@ -59,4 +65,7 @@ cents = 1200 \times \log_{2}(478/466.16) - (478/466.16) \\
 <p>Once I had all the settings set up how I wanted, I loaded in the bagpipes and fed it through a few reverb and delay chains to smooth out the stutters and add even more texture to the sound. Then I set up a midi track to play through 5 octaves sampling at minor third intervals (3 half steps). I use minor thirds for sampling as I think this is a great trade off for effort and sampling. You only need to sample 4 notes per octave (in this case <strong>A</strong>, <strong>C</strong>, <strong>D#</strong> and <strong>F#</strong>) but when you map the notes, each sample will only need to be pitch shifted 1 semitone in any direction to cover the whole piano! This is great as it means my delay effects and other elements won’t get time warped by pitch shifting the samples. <a href="https://lachlan00.github.io/pianobook/Space_Pipes/audio/granulated_A1.wav">Here’s the result of this processing. Have a listen to A1!</a></p>
 <p>Now I layered this sound over the space organ sound and added in the laser eye controls. This bit was really fun. I won’t go into the Kontakt scripting for this but my script in the Kontakt instrument patch is all open so feel free to dissect it. Also feel free to get in contact if you have any questions about any of this.</p>
 <p>I was pretty pleased with the final result. I now have a pretty cool space organ that can be layered with some really interesting granular textures that can make for some really cool drones! Once again if you haven’t already <a href="https://www.dropbox.com/s/mijja37b212cjlz/SpacePipes.zip?dl=0"><strong>download the instrument!</strong></a> and have a play with it yourself!</p>
+</div>
+</body>
 
+</html>
